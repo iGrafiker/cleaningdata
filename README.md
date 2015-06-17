@@ -4,7 +4,7 @@ This text explains how the script „run_analysis.R“ works.
 
 <h2> Reading Data </h2>
 
-The zip archive has been downloaded and unpacked. The directory containing the data has been moved into the working directory of R. In the first step, all required data files has been read with the function read.table() from the working directory and assigned to single data frames.
+The zip archive has been downloaded and unpacked. The directory containing the data has been moved into the working directory of R. In the first step, all required raw data files has been read with the function read.table() from the working directory and assigned to single data frames.
 
 
 <h2> Computing the main data frame </h2>
