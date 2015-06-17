@@ -20,7 +20,7 @@ Similarly, the codings of the activities taken from the text files "Y_test.txt" 
 The data frames of subjects and activities are merged with the data frame of the measurements by applying function cbind().
 
 <h2> Calculatings means of each variable for each activity and each subject </h2>
-Finally, the data frame "dt_test_train" is grouped using the function "group_by()" along the variables "subject" and "activity" and assigned to a new data frame "df_means". To this the function "summarise_each" together with "mean ()" is used to calculate an average of each variable for each activity and each subject. The resulting data frame "df_mean" was written with the function "write.table ()" in a plain text file called ".txt".
+Finally, the data frame "dt_test_train" is grouped using the function "group_by()" along the variables "subject" and "activity" and assigned to a new data frame "df_means". To this the function "summarise_each" together with "mean ()" is used to calculate an average of each variable for each activity and each subject. The resulting data frame "df_mean" is written with the function "write.table ()" in a plain text file called ".txt".
 
-To relieve the system all R-objects have been deleted as soon as they were no longer needed.
+To relieve the system all R-objects are deleted as soon as they are no longer needed.
 
