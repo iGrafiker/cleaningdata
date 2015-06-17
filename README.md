@@ -9,7 +9,7 @@ The zip archive has been downloaded and unpacked. The directory containing the d
 
 <h2> Computing the main data frame </h2>
 
-The data frames with data from „X_test“ and „X_train“ were converted with the function tbl_df() from the package "plyr" in special data frames. Subsequently, these were combined with the function bind_row() and were assigned to one new Data Frame called "dt_test_train".
+The data frames with data from „X_test“ and „X_train“ were converted with the function tbl_df() from the package "plyr" in special data frames. Subsequently, these two data sets were merged with the function bind_row() and were assigned to one new data frame called "dt_test_train".
 
 The variables' names read from text file "feature.txt" were assigned the Data Frame "dt_test_train" as the column names. With the function select_vars () were extracted subsets of those variables whose name "-mean ()" or "-std ()" contains. These two subsets ("submean", "substds") was again combined in one data frame.
 
