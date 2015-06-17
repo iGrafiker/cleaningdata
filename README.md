@@ -1,5 +1,4 @@
-# cleaningdata
-Getting and Cleaning Data Course Project
+<h1> Getting and Cleaning Data Course Project </h1>
 
 This text explains how the script „run_analysis.R“ works.
 
