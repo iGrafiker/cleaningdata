@@ -24,7 +24,7 @@ The data frames of subjects and activities are added to the main data frame of m
 
 <h2> Calculatings means of each variable for each activity and each subject </h2>
 
-Finally, the data frame "dt_test_train" is grouped using the function "group_by()" along the variables "subject" and "activity" and assigned to a new data frame "df_means". To this the function "summarise_each" together with "mean ()" is used to calculate an average of each variable for each activity and each subject. The resulting data frame "df_mean" is written with the function "write.table ()" in a plain text file called ".txt".
+Finally, the data frame "dt_test_train" is grouped using the function "group_by()" along the variables "subject" and "activity" and assigned to a new data frame "df_means". To this the function "summarise_each" together with "mean ()" is used to calculate an average of each variable for each activity and each subject. The resulting data frame "df_mean" is written with the function "write.table ()" in a plain text file called "datafile.txt".
 
 To relieve the system all R-objects are deleted as soon as they are no longer needed.
 
