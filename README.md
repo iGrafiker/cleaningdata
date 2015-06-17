@@ -9,7 +9,7 @@ The zip archive is manually downloaded and unpacked. The directory containing th
 
 <h2> Computing the main data frame </h2>
 
-Subsequently, these two data sets are merged with the function bind_row() and assigned to one new data frame called "dt_test_train".
+Subsequently, these two data frames are merged with the function bind_row() and assigned to one new data frame called "dt_test_train".
 
 The variables' names read from text file "feature.txt" were assigned the Data Frame "dt_test_train" as the column names. With the function select_vars () were extracted subsets of those variables whose name "-mean ()" or "-std ()" contains. These two subsets ("submean", "substds") was again combined in one data frame.
 
