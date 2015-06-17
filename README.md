@@ -2,9 +2,13 @@
 
 This text explains how the script „run_analysis.R“ works.
 
+<h2> Getting Data </h2>
+
+The zip archive is downloaded and extracted manually. The directory containing the unzipped text files has been moved into the working directory of R. 
+
 <h2> Reading Data </h2>
 
-The zip archive is downloaded and extracted manually. The directory containing the unzipped text files has been moved into the working directory of R. All text files were first opened and viewed using a text editor. In the first step, all required raw data files are read with the function read.table() from the working directory and assigned to single data frames. Here, the function tbl_df () from the package "dplyr" is used to create special data frames from the main data sets X_test and X_train.
+All text files were first opened and viewed using a text editor. In the first step, all required raw data files are read with the function read.table() from the working directory and assigned to single data frames. Here, the function tbl_df () from the package "dplyr" is used to create special data frames from the main data sets X_test and X_train.
 
 <h2> Computing the main data frame </h2>
 
