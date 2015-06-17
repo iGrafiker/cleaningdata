@@ -8,7 +8,7 @@ The zip archive is downloaded and extracted manually. The directory containing t
 
 <h2> Reading Data </h2>
 
-All text files were first opened and viewed using a text editor. In the first step, all required raw data files are read with the function read.table() from the working directory and assigned to single data frames. Here, the function tbl_df () from the package "dplyr" is used to create special data frames from the main data sets X_test and X_train.
+All text files were first opened and viewed using a text editor. In a first step, the script reads all needed files with raw data from working directory with the function "read.table()" and assigns each data set to a separate data frame. Here, the function tbl_df () from the package "dplyr" is used to create special data frames from the main data sets X_test and X_train.
 
 <h2> Computing the main data frame </h2>
 
