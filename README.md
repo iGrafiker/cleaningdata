@@ -4,12 +4,12 @@ This text explains how the script „run_analysis.R“ works.
 
 <h2> Reading Data </h2>
 
-The zip archive has been downloaded and unpacked. The directory containing the data has been moved into the working directory of R. In the first step, all required raw data files has been read with the function read.table() from the working directory and assigned to single data frames.
+The zip archive is manually downloaded and unpacked. The directory containing the unzipped data has been moved into the working directory of R. In the first step, all required raw data files are read with the function read.table() from the working directory and assigned to single data frames. Here, the function tbl_df () from the package "dplyr" is used to create special data frames from the main data sets X_test and X_train.
 
 
 <h2> Computing the main data frame </h2>
 
-The data frames with data from „X_test“ and „X_train“ were converted with the function tbl_df() from the package "plyr" in special data frames. Subsequently, these two data sets were merged with the function bind_row() and were assigned to one new data frame called "dt_test_train".
+Subsequently, these two data sets are merged with the function bind_row() and assigned to one new data frame called "dt_test_train".
 
 The variables' names read from text file "feature.txt" were assigned the Data Frame "dt_test_train" as the column names. With the function select_vars () were extracted subsets of those variables whose name "-mean ()" or "-std ()" contains. These two subsets ("submean", "substds") was again combined in one data frame.
 
