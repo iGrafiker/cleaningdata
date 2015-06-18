@@ -1,4 +1,4 @@
-<h1> How the script "run_analysis works </h1>
+<h1> How the script "run_analysis" works </h1>
 
 This text explains how the script „run_analysis.R“ works.
 
