@@ -1,4 +1,4 @@
-Beschreibung der variablen im  Datenset datafile.txt
+Description of the variables in set data set "datafile.txt"
 
 <h4> Structure of entries </h4>
 * name of variable
