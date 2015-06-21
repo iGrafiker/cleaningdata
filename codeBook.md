@@ -16,11 +16,12 @@ Description of the variables in set data set "datafile.txt"
 * Code for each single subject performing the activities
 * 1 to 30
 <p></p>
-
+<p>
 * activity
 * 2
 * Six activities performed by each of the 30 subjects in the entire experiments
 <li> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING </li>
+</p>
 <p></p>
 The following 66 variables give the average of Means and Standard Deviations of the measured signals in the original experiment, for each activity of a test subject. For the description of the measured signals see "feature_info.txt" of the original data sets.
 <p></p>
