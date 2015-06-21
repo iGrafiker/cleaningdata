@@ -23,10 +23,10 @@ Beschreibung der variablen im  Datenset datafile.txt
 
 * tBodyAcc-mean()-X
 * 3
-* 
+
 + tBodyAcc-mean()-Y
 + 4
-+ 
+
 + tBodyAcc-mean()-Z
 + 5
 
