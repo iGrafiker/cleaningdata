@@ -10,12 +10,12 @@ Description of the variables in set data set "datafile.txt"
 
 
 <h4> The variables </h4>
-<p>
+
 * subject
 * 1
 * Code for each single subject performing the activities
 * 1 to 30
-</p>
+
 <p></p>
 <p>
 * activity
