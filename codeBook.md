@@ -24,8 +24,8 @@ Beschreibung der variablen im  Datenset datafile.txt
 * tBodyAcc-mean()-X
 * 3
 <p></p>
-+ tBodyAcc-mean()-Y
-+ 4
+* tBodyAcc-mean()-Y
+* 4
 <p></p>
 + tBodyAcc-mean()-Z
 + 5
