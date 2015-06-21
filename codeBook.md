@@ -1,3 +1,5 @@
+<h2> Codebook </h2>
+
 Description of the variables in set data set "datafile.txt"
 
 <h4> Structure of entries </h4>
