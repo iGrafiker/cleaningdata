@@ -29,20 +29,34 @@ Beschreibung der variablen im  Datenset datafile.txt
 + 
 + tBodyAcc-mean()-Z
 + 5
-+ 
+
 + tBodyAcc-std()-X		
 + 6
-+ 
+
 + tBodyAcc-std()-Y
 + 7
-+ 
-tBodyAcc-std()-Z		8
-tGravityAcc-mean()-X		9
-tGravityAcc-mean()-Y		10
-tGravityAcc-mean()-Z		11
-tGravityAcc-std()-X		12
-tGravityAcc-std()-Y		13
-tGravityAcc-std()-Z		14
+
++ tBodyAcc-std()-Z	
++ 8
+ 
++ tGravityAcc-mean()-X
++ 9
+
++ tGravityAcc-mean()-Y
++ 10
+
++ tGravityAcc-mean()-Z
++ 11
+
++ tGravityAcc-std()-X
++ 12
+
++ tGravityAcc-std()-Y
++ 13
+
++ tGravityAcc-std()-Z
++ 14
+
 tBodyAccJerk-mean()-X		15
 tBodyAccJerk-mean()-Y		16
 tBodyAccJerk-mean()-Z		17
