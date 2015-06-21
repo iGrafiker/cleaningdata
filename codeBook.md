@@ -1,29 +1,29 @@
 Beschreibung der variablen im  Datenset datafile.txt
 
 <h4> Structure of entries </h4>
-Variable		Column
-	Description of the variable
-			Value
+Variable        Column
+Description of the variable
+Value
 
 
 <h4> The variables</h4>
 
-subject			1
-	Code for each single subject performing the activities	
-			1 to 30
+subject        1
+Code for each single subject performing the activities	
+1 to 30
 
 
-activity		2	
-	Six activities performed by each of the 30 subjects in the entire experiments
-			WALKING
-			WALKING_UPSTAIRS
-			WALKING_DOWNSTAIRS
-			SITTING
-			STANDING
-			LAYING
+activity       2	
+Six activities performed by each of the 30 subjects in the entire experiments
+WALKING
+WALKING_UPSTAIRS
+WALKING_DOWNSTAIRS
+SITTING
+STANDING
+LAYING
 
 
-	The following 66 variables give the average of Means and Standard Deviations of the measured signals in the original experiment, for each activity of a test subject. For the description of the measured signals see "feature_info.txt" of the original data sets.
+The following 66 variables give the average of Means and Standard Deviations of the measured signals in the original experiment, for each activity of a test subject. For the description of the measured signals see "feature_info.txt" of the original data sets.
 
 tBodyAcc-mean()-X		3
 tBodyAcc-mean()-Y		4
