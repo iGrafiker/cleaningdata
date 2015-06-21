@@ -16,7 +16,7 @@ Beschreibung der variablen im  Datenset datafile.txt
 <p></p>
 <p>
 * activity
-* 2	
+* 2
 * Six activities performed by each of the 30 subjects in the entire experiments
 <li> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING </li>
 </p>
