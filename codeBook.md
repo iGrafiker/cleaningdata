@@ -1,9 +1,10 @@
 Beschreibung der variablen im  Datenset datafile.txt
 
 <h4> Structure of entries </h4>
-Variable        Column
-Description of the variable
-Value
+* Variable
+* Column
+* Description of the variable
+* Value
 
 
 <h4> The variables</h4>
