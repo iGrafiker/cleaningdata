@@ -8,7 +8,7 @@ Variable		Column
 
 <h4> The variables</h4>
 
-subject			1
+subject			2
 	Code for each single subject performing the activities	
 			1 to 30
 
