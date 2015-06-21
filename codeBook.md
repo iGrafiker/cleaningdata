@@ -7,7 +7,7 @@ Beschreibung der variablen im  Datenset datafile.txt
 * Value
 
 
-<h4> The variables</h4>
+<h4> The variables </h4>
 * subject        
 * 1
 * Code for each single subject performing the activities	
@@ -17,8 +17,8 @@ Beschreibung der variablen im  Datenset datafile.txt
 activity
 * 2	
 * Six activities performed by each of the 30 subjects in the entire experiments
-** WALKING
-** WALKING_UPSTAIRS
+<li> <p> WALKING </p>
+<p> WALKING_UPSTAIRS< /p>
 ** WALKING_DOWNSTAIRS
 ** SITTING
 ** STANDING
