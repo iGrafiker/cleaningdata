@@ -14,23 +14,28 @@ Beschreibung der variablen im  Datenset datafile.txt
 * Code for each single subject performing the activities
 * 1 to 30
  
-activity
-2	
-Six activities performed by each of the 30 subjects in the entire experiments
++ activity
++ 2	
++ Six activities performed by each of the 30 subjects in the entire experiments
 <li> WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING </li>
 
 <p> The following 66 variables give the average of Means and Standard Deviations of the measured signals in the original experiment, for each activity of a test subject. For the description of the measured signals see "feature_info.txt" of the original data sets.</p>
 
 * tBodyAcc-mean()-X
 * 3
+* 
 + tBodyAcc-mean()-Y
 + 4
++ 
 + tBodyAcc-mean()-Z
-+ 5	
++ 5
++ 
 + tBodyAcc-std()-X		
 + 6
++ 
 + tBodyAcc-std()-Y
 + 7
++ 
 tBodyAcc-std()-Z		8
 tGravityAcc-mean()-X		9
 tGravityAcc-mean()-Y		10
